@@ -16,6 +16,7 @@ import static org.assertj.core.api.Assertions.*;
 class MemoryMemberRepositoryTest {
     MemoryMemberRepository repository = new MemoryMemberRepository();
 
+
     // 콜백함수로 테스트가 끝날때마다 데이터를 초기화 시켜줌
     @AfterEach
     public void afterEach() {
